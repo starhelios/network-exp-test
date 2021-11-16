@@ -1,0 +1,41 @@
+/**
+* override ag-grid style
+*/
+.ag-root-wrapper {
+    border: none !important;
+}
+
+.ag-header {
+    border: none !important;
+    background-color: var(--ag-header-background-color, #fff) !important;
+}
+
+.ag-row {
+    border: none !important;
+}
+
+.ag-row-odd {
+    background-color: var(--ag-header-background-color, #fff) !important;
+}
+
+.ag-row-even {
+    background-color: var(--ag-header-background-color, #f5f5f5) !important;
+}
+.ag-theme-alpine .ag-header-cell-resize {
+    display: none !important;
+}
+
+/**
+* ag-grid custom scrollbar
+*/
+.ag-root ::-webkit-scrollbar {
+}
+.ag-root ::-webkit-scrollbar-button {
+    background: #ccc;
+}
+.ag-root ::-webkit-scrollbar-track-piece {
+    background: #888;
+}
+.ag-root ::-webkit-scrollbar-thumb {
+    background: #eee;
+}​
